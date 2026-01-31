@@ -1,0 +1,154 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+.section{
+     width: 100%;
+     min-height: 100vh;
+     background-color: #28dab3;
+}
+
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+
+}
+.img-section{
+    float: left;
+    width: 40%;
+}
+.img-section img{
+    width: 100%;
+    height: auto;
+
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+    color: rgb(129, 64, 78);
+}
+.content-section .content h3{
+margin-top: 20px;
+color: rgb(39, 18, 39);
+font-size: 21px;
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 18px;}
+    
+.content-section .content .button{
+    margin-top: 30px;
+}
+
+.content-section .content .button a{
+    background-color: orange;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    margin-left: 68px;
+    border-radius: 11px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+   
+}
+.content-section .content .button a:hover{
+    background-color: aqua;
+    color: black;
+
+}
+.content-section .social{
+    margin: 40px 40px;
+}
+
+.content-section .social a{
+    color: rgb(255, 0, 255);
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.content-section .social a:hover{
+color: aqua;
+}
+@media screen and(max-width=768px){
+    .container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+.content-section{
+    float: none;
+    width: 100px;
+display: block;
+margin: auto;
+}
+.img-section{
+    float: none;
+    width: 100%;
+}
+.img-section img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.content-section .title{
+    text-align: center;
+    font-size: 19px;
+}
+.content-section .content .button{
+    text-align: center;
+}
+.content-section .content .button a{
+   
+    padding: 9px 30px;
+}
+.content-section .social{
+    text-align: center;
+}
+
+
+}
+
+
+
+.menu{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+ul{
+    float: left;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+ul li{
+    margin-left: 60px;
+    list-style: none;
+    font-size: 18px;
+    margin-top: -100px;
+}
+ul li a{
+    text-decoration: none;
+    color: orange;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0,5s ease-in-out;
+}
+ul li a:hover{
+    color: rgb(8, 10, 10);
+
+}
